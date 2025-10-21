@@ -127,8 +127,8 @@ SIMPLE_JWT = {
     # Auth Cookie
     "AUTH_COOKIE_ACCESS": "access_token",
     "AUTH_COOKIE_REFRESH": "refresh_token",
-    "AUTH_COOKIE_DOMAIN": None,  # ".example.com" or None for standard domain cookie
-    "AUTH_COOKIE_SECURE": not DEBUG, #  cookies only sent over HTTPS in production, but work on HTTP in development
+    "AUTH_COOKIE_DOMAIN": None, 
+    "AUTH_COOKIE_SECURE": not DEBUG,
     "AUTH_COOKIE_HTTP_ONLY": True,
     "AUTH_COOKIE_SAMESITE": "Lax",  
     # "AUTH_COOKIE_REFRESH_PATH": "/accounts/auth/",

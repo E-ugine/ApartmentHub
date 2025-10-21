@@ -11,7 +11,7 @@ class CookieJWTAuthentication(JWTAuthentication):
         raw_token = request.COOKIES.get(cookie_name)
         
         if raw_token is None:
-            # No token in cookie, then not authenticated, return none
+            # No token in cookie, then user is not authenticated, return none
             return None
         
         # Validate the token 
